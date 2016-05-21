@@ -1,1 +1,0 @@
-%{TIMESTAMP_ISO8601:date} %{DATA:type}: \[%{DATA:name}\] %{GREEDYDATA:message}\nException Attributes(?<exception_attributes>(?m:.*?\)))\nRequest URL: %{URIPATH:endpoint}\nStack Trace:\n(?<stack_trace>(?m:.*))
